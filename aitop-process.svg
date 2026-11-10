@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 590" role="img" aria-labelledby="title desc">
+  <title id="title">AITOP 설계 흐름 개념도</title>
+  <desc id="desc">현장 조건 입력에서 설비 대안 분석을 거쳐 설계안을 도출하는 과정</desc>
+  <defs><linearGradient id="flow" x1="0" x2="1"><stop stop-color="#E31B0C"/><stop offset=".5" stop-color="#F09000"/><stop offset="1" stop-color="#00953D"/></linearGradient></defs>
+  <rect width="900" height="590" fill="#E7EAE3"/>
+  <rect x="32" y="32" width="836" height="526" fill="#F8F9F5" stroke="#C9D0C4"/>
+  <rect x="32" y="32" width="836" height="9" fill="url(#flow)"/>
+  <g font-family="Arial,'Malgun Gothic',sans-serif" fill="#1B1C17">
+    <text x="70" y="105" font-size="18" font-weight="700" letter-spacing="2">AITOP / AI THERMAL DESIGN</text>
+    <text x="70" y="148" font-size="30" font-weight="700">현장에 맞는 열설비를 비교하고 설계합니다</text>
+    <g fill="#FFF" stroke="#D7DDD3" stroke-width="2">
+      <rect x="70" y="215" width="208" height="236" rx="4"/><rect x="346" y="215" width="208" height="236" rx="4"/><rect x="622" y="215" width="208" height="236" rx="4"/>
+    </g>
+    <g font-size="16" font-weight="700"><text x="96" y="258" fill="#E31B0C">01  INPUT</text><text x="372" y="258" fill="#C47A00">02  ANALYSIS</text><text x="648" y="258" fill="#00953D">03  OUTPUT</text></g>
+    <g font-size="23" font-weight="700"><text x="96" y="309">현장 조건</text><text x="372" y="309">설비 대안</text><text x="648" y="309">공정 설계안</text></g>
+    <g font-size="17" fill="#555950"><text x="96" y="351">열량 · 온도 · 부하</text><text x="96" y="379">기존 설비 · 부지</text><text x="372" y="351">성능 · 경제성 비교</text><text x="372" y="379">적용 가능성 검토</text><text x="648" y="351">현장별 설비 구성</text><text x="648" y="379">검토 결과 제시</text></g>
+    <path d="M291 333h38m-10-10 10 10-10 10M567 333h38m-10-10 10 10-10 10" fill="none" stroke="#EE6A00" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="70" y="508" font-size="15" fill="#667067">Illustrative workflow · Concept image</text>
+  </g>
+</svg>
